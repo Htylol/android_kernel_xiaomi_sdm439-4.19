@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-rm -rf out
+#rm -rf out
 export CLANG_PATH=~/kernel/linux-x86-refs_heads_main-clang-r530567/bin
 export PATH=${CLANG_PATH}:${PATH}
 export THINLTO_CACHE=~/ltocache/
